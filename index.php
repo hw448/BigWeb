@@ -8,5 +8,6 @@
 
 <body>
 	<image src = "CoolDog.webp" height = 200px width = 250px></image>
+	<p id="fin"> fin was here</p>
 </body>
 </html>
