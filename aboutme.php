@@ -7,9 +7,14 @@
 
     <body>
         <?php
-        $color = random_int(0,16777216);
-        $hex = dechex($color);
-        echo "<h1 style = 'color:#$hex'>Lol, Lmao</h1>";
+        
+        $message = "Hello World!";
+        for ($i=0; $i<strlen($message); $i++) {
+            $color = random_int(0,16777216);
+            $hex = dechex($color);
+            $letter = $message[$i];
+            echo "<span style='color:#$hex'>$letter</span>";
+        }
         ?>
     </body>
 </html>
